@@ -17,6 +17,14 @@ header {
     padding: 10vh 0%;
     font-size: 1.2em;
 }
+p {
+    visibility: hidden;
+    opacity: 0%;
+}
+header:hover > p {
+    visibility: visible;
+    opacity: 100%;
+}
 h1 {
     padding: 0px;
     font-size: 4em;
