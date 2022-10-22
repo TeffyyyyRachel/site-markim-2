@@ -1,0 +1,90 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(53, 49, 49);
+}
+
+header {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 10vh 0%;
+    font-size: 1.2em;
+}
+h1 {
+    padding: 0px;
+    font-size: 4em;
+    margin: auto;
+    width: fit-content;
+    font-variant: small-caps;
+}
+nav {
+    width: fit-content;
+    margin: auto;
+}
+a{
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(238, 218, 218);
+    width: 90vw;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+main > section {
+    height: 600px;
+}
+.img {
+    background-color: lightgray;
+    box-shadow: inset 3px 3px 13px rgba(0, 0, 0, 0.459);
+}
+.img#hashi {
+    background-image: url('midia/12-13.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.img#goku {
+    background-image: url('midia/0c352377878d79845c0646d017537e06.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.video {
+    text-align: center;
+    height: fit-content;
+    padding: 10%;
+}
+iframe {
+    width: 800px;
+    height: 450px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+footer > a{ 
+    color: white;
+}
+a::after {
+    content: ' \1F517';
+}
